@@ -1,0 +1,14 @@
+CASE STUDY: United States v. RealPage Inc. (DOJ Antitrust & Algorithmic Pricing Investigation)
+
+Overview:
+In August 2024, the U.S. Department of Justice (DOJ) alongside multiple State Attorneys General filed a civil antitrust lawsuit against RealPage Inc. The lawsuit alleges that RealPage violated Sections 1 and 2 of the Sherman Act through an unlawful information-sharing scheme and algorithmic price-fixing.
+
+Technical & Data Mechanics:
+1. Nonpublic Data Ingestion: RealPage’s YieldStar algorithm relies on nonpublic, competitively sensitive transactional data directly harvested from competing landlords. This data includes actual executed lease rates, pending renewal offers, guest card metrics, and effective occupancy rates.
+2. Algorithmic Price Alignment: YieldStar processes this aggregated competitor data to generate daily recommended rent prices and lease terms for subscribing property managers.
+3. Automated Enforcement & Guardrails: RealPage’s software sets price floors, prevents leasing agents from negotiating lower rents or offering concessions, and uses auto-accept parameters to ensure pricing compliance across competitors.
+
+Legal & Privacy Allegations:
+- Anticompetitive Collusion: The DOJ asserts that using algorithmic software fed by competitors' private data replaces independent market competition with coordinated pricing, artificially inflating rent for millions of tenants.
+- Privacy & Data Governance Concerns: Landlords pooled private tenant lease agreements and transactional data into a shared warehouse, creating indirect price-fixing mechanisms disguised as automated AI optimization.
+- Defense Argument: RealPage contends that its software merely offers non-binding pricing recommendations driven by supply/demand market dynamics, and that property managers maintain final pricing discretion.
